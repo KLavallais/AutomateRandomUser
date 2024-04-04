@@ -17,6 +17,7 @@ In the PowerShell ISE, draft or open your pre-written script designed for mass u
 ## Step 3: Execute the Creation Script
 
 With your script loaded in the ISE, initiate the execution process. Observe the output carefully for successful execution or to catch and troubleshoot any issues that arise.
+(Script below automates 1000 user accounts, simply change the number in the second line of the script to suit your needs.)
 ```powershell
 $PASSWORD_FOR_USERS = "123456789Abc!"
 $NUMBER_OF_ACCOUNTS_TO_CREATE = 1000
