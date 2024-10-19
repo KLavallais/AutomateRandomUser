@@ -1,4 +1,23 @@
 # PowerShell Automation for User Account Creation in Active Directory
+![Active Directory Banner](https://github.com/KLavallais/KLavallais/blob/assets/Microsoft-Active-Directory-Banner_0001.png?raw=true)
+---
+
+## Tools/Programs Used:
+- **Windows Server 2022**: The operating system on which Active Directory and PowerShell scripts are run.
+- **PowerShell ISE**: Used to write, edit, and execute PowerShell scripts for automating Active Directory tasks.
+- **Active Directory Users and Computers (ADUC)**: Interface to verify and manage user accounts created via automation.
+- **PowerShell**: Script execution environment used for creating and managing Active Directory users.
+
+---
+
+## Skills Demonstrated:
+- Scripting in PowerShell to automate administrative tasks in Active Directory.
+- Automating bulk user creation and configuring their Active Directory settings.
+- Using loops and functions in PowerShell for generating random user names.
+- Verifying the creation of user accounts in ADUC and confirming login success.
+- Network and user environment validation after account creation.
+
+---
 
 Welcome to this step-by-step tutorial where you will learn to automate the creation of user accounts in Active Directory using PowerShell. This method is efficient, reliable, and perfect for large-scale user management tasks.
 
