@@ -3,7 +3,9 @@
 ---
 
 ## Tools/Programs Used:
-- **Windows Server 2022**: The operating system on which Active Directory and PowerShell scripts are run.
+- **Microsoft Azure**: Used to create and manage the virtual machines where the Active Directory and PowerShell scripts are executed.
+- **Windows Server 2022**: The operating system running on both the domain controller and client machines.
+- **Remote Desktop Connection**: Utilized to access and manage the virtual machines.
 - **PowerShell ISE**: Used to write, edit, and execute PowerShell scripts for automating Active Directory tasks.
 - **Active Directory Users and Computers (ADUC)**: Interface to verify and manage user accounts created via automation.
 - **PowerShell**: Script execution environment used for creating and managing Active Directory users.
@@ -11,11 +13,12 @@
 ---
 
 ## Skills Demonstrated:
-- Scripting in PowerShell to automate administrative tasks in Active Directory.
-- Automating bulk user creation and configuring their Active Directory settings.
-- Using loops and functions in PowerShell for generating random user names.
-- Verifying the creation of user accounts in ADUC and confirming login success.
-- Network and user environment validation after account creation.
+- **Virtual Machine Management in Azure**: Set up and managed virtual machines in Microsoft Azure, including configuring the domain controller and client machines.
+- **Remote Desktop Access**: Connected to the virtual machines through Remote Desktop to execute administrative tasks.
+- **Scripting in PowerShell**: Automated the creation of Active Directory users using PowerShell scripts.
+- **Automating Bulk User Creation**: Scripted the generation and configuration of 1,000 users in Active Directory, showing proficiency in scaling administrative tasks.
+- **Active Directory Management**: Verified the creation of user accounts in ADUC, confirming successful automation.
+- **Network and User Environment Validation**: Tested user login functionality and ensured the proper environment setup for each created user.
 
 ---
 
@@ -115,5 +118,10 @@ Perform a final check to confirm that all user settings are correctly configured
 ![Final User Configuration](https://github.com/KLavallais/KLavallais/blob/assets/AutomatedRandomUsers_08.png?raw=true)
 
 
-By following this tutorial, you’ve efficiently created multiple user accounts with minimal effort. Automating such processes not only saves time but also introduces a high level of accuracy and consistency in administrative tasks.
+## Conclusion
 
+By following this tutorial, you’ve efficiently created multiple user accounts using PowerShell automation. This process, combined with the setup of virtual machines in **Microsoft Azure**, not only saves time but also introduces a high level of accuracy and consistency in administrative tasks. 
+
+[This post](https://github.com/KLavallais/InstallAD) expands on the skills you've just seen demonstrated here. You will see how I manage folder permissions, security groups, and user account creation on virtual machines in Azure. If you're interested in a broader view of **permissions management** and **group policies**, head over to this **Active Directory** [video walkthrough](https://github.com/KLavallais/AzureADVideo). Together, these resources provide a comprehensive look at how I use **Azure**, **Active Directory**, and **PowerShell** to streamline IT management tasks.
+
+For my previous post on how to install Active Directory, check it out [here](https://github.com/KLavallais/InstallAD).
